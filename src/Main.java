@@ -7,8 +7,10 @@ public class Main {
         String name = scn.next();
 
         System.out.println("This is so cool " + name);
-        while(true){
+        int i = 0;
+        while(i != 2345){
             System.out.println("hahaha");
+            i++;
         }
     }
 }
