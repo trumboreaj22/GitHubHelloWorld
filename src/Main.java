@@ -4,6 +4,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Print your name: ");
-        System.out.println(scn.nextLine());
+        String name = scn.next();
+
+        System.out.println("This is so cool " + name);
+        while(true){
+            System.out.println("hahaha");
+        }
     }
 }
